@@ -127,21 +127,22 @@ body{
    .board{
      margin-top:200px;
      margin-left: 110px;
-     height:150px;
-     width: 150px;
+     height:200px;
+     width: 200px;
    }
    .container{
-    height:10vw;
-    width: 10vw;
-    font-size: 30px;
+    height:13vw;
+    width: 14vw;
+    font-size: 35px;
    }
    .winner{
-    height: 40vw;
-    width: 40vw;
-    margin-left: 100px;
-    margin-top: 230px;
+    height: 43vw;
+    width: 44vw;
+    margin-left: 120px;
+    margin-top: 200px;
     font-size: 20px;
     display: none;
     backdrop-filter: blur(5px);
+    border: 2px solid black;
    }
 }
