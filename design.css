@@ -83,18 +83,21 @@ body{
     height: 35px;
     width:80px;
     font-size: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:blueviolet;
     border: 1px solid blueviolet;
     background-color:#FDDBBB;
     cursor: pointer;
-    margin-left: 35px;
+    margin-left: 10px;
     margin-top: 10px;
     font-weight: bold;
 }
 @media only screen and (max-width: 408px) {
+    body{
+        background-color: #0B192C;
+    }
    .main{
     height: 500px;
     display: grid;
@@ -104,6 +107,7 @@ body{
     height: 40px;
     width: 200px;
     font-size: 30px;
+    color: #FFF4B7;
    }
    .player-info{
     display: grid;
@@ -118,6 +122,9 @@ body{
     position: fixed;
     justify-content: center;
    }
+   .reset{
+    background-color: #0B192C;
+   }
    .info{
     height: 50px;
     width: 50px;
@@ -126,7 +133,7 @@ body{
    }
    .board{
      margin-top:200px;
-     margin-left: 110px;
+     margin-left: 90px;
      height:200px;
      width: 200px;
    }
@@ -134,15 +141,16 @@ body{
     height:13vw;
     width: 14vw;
     font-size: 35px;
+    background-color:#B9B4C7;
    }
    .winner{
     height: 43vw;
     width: 44vw;
-    margin-left: 120px;
+    margin-left: 100px;
     margin-top: 200px;
     font-size: 20px;
     display: none;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
     border: 2px solid black;
    }
 }
